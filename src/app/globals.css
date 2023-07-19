@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-noto-sans) !important;
+}
+
+body{
+  scroll-behavior: smooth;
+  font-family: var(--font-noto-sans) !important;
+}
+
+
+.crypto_exchange_container{
+    background: url(/assets/images/exchange_hero_desktop.webp) center 40%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.crypto_earn_container{
+  background: radial-gradient(27.85% 45.61% at 22.15% 49.95%, #3763C1 0%, #23469D 19.68%, #142B72 38.97%, #0A1549 63.53%, #020A30 79.56%, #010118 100%);
+}
+
+
+.visa_card_video{
+  min-height: 1074px;
+  width: 100%;
+  filter: brightness(50%);
+  object-fit: cover;
+}
+
+.header_video{
+  min-height: 100vh;
+  width: 100%;
+  filter: brightness(75%);
+  object-fit: cover;
+}
+
+.header_content_container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.visa_card_content_container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.header_mobile_img_container{
+  background: radial-gradient(45.87% 50% at 50% 50%, #3763C1 0%, rgba(35, 70, 157, 0.5) 38.39%, rgba(20, 43, 114, 0) 100%);
+}
+
+.overlay_bg{
+  background: linear-gradient(0deg, rgb(1, 1, 24) 0%, rgba(1, 1, 24, 0.5) 50.07%);
+}
