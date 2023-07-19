@@ -40,7 +40,7 @@ const Header = () => {
                   </div>
                 </div>
 
-                <Link href="#" className='hidden md:inline-block mb-16 bg-transparent border-[1px] border-[#f4f4f4] text-lg text-white font-semibold capitalize  px-6 py-3 rounded-[40px]'>
+                <Link href="#" className='hidden md:inline-block mb-16 bg-transparent border-[1px] border-[#f4f4f4] text-base sm:text-lg text-white font-semibold capitalize  px-6 py-3 rounded-[40px]'>
                   Download App <QrSvg />
                 </Link>
               </div>

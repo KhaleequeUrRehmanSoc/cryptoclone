@@ -24,7 +24,7 @@ const BuyCryptoListItem = () => {
             <div>
               <Link
                 href="#"
-                className="inline-block bg-[#f4f4f4] text-[#0e213b] border-[1px] border-transparent text-lg font-semibold capitalize  px-6 py-3 rounded-[40px]"
+                className="inline-block bg-[#f4f4f4] text-[#0e213b] border-[1px] border-transparent text-base sm:text-lg font-semibold capitalize  px-6 py-3 rounded-[40px]"
               >
                 Trade
               </Link> 
