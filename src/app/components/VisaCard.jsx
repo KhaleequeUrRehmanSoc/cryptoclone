@@ -1,12 +1,19 @@
 "use client"
 
 import Link from 'next/link'
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import RightArrowSvg from './icons/RightArrowSvg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const VisaCard = () => {
+
+  const visaCardVideoRef = useRef(null)
+
+  useEffect(() => {
+      console.log('visaCardVideoRef ',visaCardVideoRef)
+  }, [])
+  
 
   useEffect(() => {
     AOS.init();
@@ -16,7 +23,7 @@ const VisaCard = () => {
     <>
       <section className='w-full relative'>
         <div>
-            <video title="7 different coloured Crypto.com visa cards cascade on the screen"  className="visa_card_video" ><source src="/assets/videos/visa_card_video.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos.</video>
+            <video title="7 different coloured Crypto.com visa cards cascade on the screen"  className="visa_card_video" autoPlay muted loop playsInline ><source src="/assets/videos/visa_card_video.mp4" type="video/mp4" ref={visaCardVideoRef} />Sorry, your browser doesn't support embedded videos.</video>
         </div>
         <div className='visa_card_content_container w-full sm:w-11/12 md:w-3/4 lg:w-[70%] px-6 sm:px-0 text-center '>
           <h2 data-aos="fade-up" className='my-1 text-base md:text-lg  font-semibold text-[#1199fa]'>CRYPTO.COM VISA CARD</h2>

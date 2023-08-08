@@ -4,7 +4,7 @@ import InputField from '../components/InputField'
 const Login = () => {
   return (
     <>
-        <section className='w-screen min-h-screen flex flex-col  items-center bg-[#010118]'>
+        {/* <section className='w-screen min-h-screen flex flex-col  items-center bg-[#010118]'>
             <div className='mt-[4rem] w-full sm:w-11/2 md:w-9/12 '>
                 <div className='flex flex-col justify-center items-center pt-5'>
                     <h2 className="font-bold text-[2.5rem] text-white">Login</h2>
@@ -32,7 +32,7 @@ const Login = () => {
                 </div>
                 </div>
             </div>
-        </section>
+        </section> */}
     </>
   )
 }

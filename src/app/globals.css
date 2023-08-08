@@ -68,3 +68,297 @@ body{
 .overlay_bg{
   background: linear-gradient(0deg, rgb(1, 1, 24) 0%, rgba(1, 1, 24, 0.5) 50.07%);
 }
+
+
+
+.navbarBtnbg{
+  background: linear-gradient(90deg,#1199fa,#11d0fa)
+}
+
+.mobileNavbarSignUpBtnbg{
+  background: linear-gradient(90deg,#1199fa,#11d0fa);
+}
+
+
+.mobileNavHeight{
+  height: calc(100vh-38px);
+}
+
+.nftMarketPlaceHeaderSectionBg{
+  background: linear-gradient(rgb(11, 20, 38) 0%, rgb(1, 8, 22) 100%) 0% 0% / cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nftMarketPlaceBg{
+  background-image: url(/assets/images/nftmarketplacebg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nftHomepageHeaderSectionBg{
+  background: linear-gradient(rgb(11, 20, 38) 0%, rgb(1, 8, 22) 100%) 0% 0% / cover no-repeat;
+}
+
+.bgBlue{
+  background:  0% 0% / cover no-repeat rgb(0, 27, 60);
+}
+
+.bgBlueGradient{
+  background: linear-gradient(90deg, rgb(17, 153, 250) 0%, rgb(17, 208, 250) 100%);
+}
+
+.featured_card{
+  margin: 0px 0px 16px;
+  /* padding-bottom: 100%; */
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  /* background-image: url(../../public/assets/images/featured_card_pic1.png); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featured_card1{
+  background-image: url(../../public/assets/images/featured_card_pic1.png);
+}
+.featured_card2{
+  background-image: url(../../public/assets/images/featured_card_pic2.jpeg);
+}
+.featured_card3{
+  background-image: url(../../public/assets/images/featured_card_pic3.png);
+}
+
+.featured_card_bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* background: linear-gradient(rgba(196, 196, 196, 0) 0.91%, rgba(0, 0, 0, 0.9) 100%) 0% 0% / cover no-repeat; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featured_card_content{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(196, 196, 196, 0) 0.91%, rgba(0, 0, 0, 0.9) 100%) 0% 0% / cover no-repeat;
+  background-repeat: no-repeat;
+}
+
+.featured_card_main_content{
+  margin: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+
+
+.nftHeaderSectionSliderBlueOverlay{
+  margin: 0px;
+  background: linear-gradient(90deg, rgb(17, 153, 250) 0%, rgb(17, 208, 250) 100%);
+  filter: blur(32px);
+  position: absolute;
+  inset: 0px;
+}
+
+.nftHeaderSectionSliderBgImage{
+  margin: 0px;
+  background-image: url(../../public/assets/images/nft_marketplace_slider_bg_img1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  transition: background-image 0.5s linear 0s;
+  position: absolute;
+  inset: 0px;
+  transform: translateZ(0px);
+}
+
+.nftHeaderSectionSliderBlackOverlay{
+  margin: 0px;
+  background-image: linear-gradient(189.56deg, rgba(0, 0, 0, 0.35) 14.53%, rgba(0, 0, 0, 0.71) 79.27%);
+  border-radius: 16px;
+  inset: 0px;
+  position: absolute;
+}
+
+.bgImgNftHeaderSection{
+  
+}
+
+
+.top_collection_card{
+  margin: 0px 0px 16px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top_collection_card_content{
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-top: 24px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  margin: 0px;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 72.92%) 0% 0% / cover no-repeat;
+  background-repeat: no-repeat;
+}
+
+.top_collection_card1{
+  background-image: url(../../public/assets/images/top_collections/top_collection_card_pic1.png);
+}
+.top_collection_card2{
+  background-image: url(../../public/assets/images/top_collections/top_collection_card_pic2.png);
+}
+.top_collection_card3{
+  background-image: url(../../public/assets/images/top_collections/top_collection_card_pic3.jpeg);
+}
+.top_collection_card4{
+  background-image: url(../../public/assets/images/top_collections/top_collection_card_pic4.png);
+}
+.top_collection_card5{
+  background-image: url(../../public/assets/images/top_collections/top_collection_card_pic5.png);
+}
+.top_collection_card6{
+  background-image: url(../../public/assets/images/top_collections/top_collection_card_pic6.png);
+}
+
+
+.registerPageBgImg{
+  background-image: url(../../public/assets/images/register_page_bg_pic.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  /* opacity: 0.2; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.registerPageBgImgBgOverlay{
+  background-image: linear-gradient(189.56deg, rgba(0, 0, 0, 0.35) 14.53%, rgba(0, 0, 0, 0.71) 79.27%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.resetPasswordPageBgImg{
+  background-image: url(../../public/assets/images/reset_password_page_bg_pic.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.dropHeaderSectionBg{
+  background: linear-gradient(180deg,#030505,#0a0813);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.dropHeaderSectionBg::before{
+  background-image: url(../../public/assets/images/drops/dropSectionBgImage.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.dropsEventHeaderSectionBg{
+  background: linear-gradient(180deg,#030505,#0a0813);
+  height: 480px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.dropsEventHeaderSectionBg::before{
+  background-image: url(../../public/assets/images/drops/dropSectionBgImage.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+
+/* .swiper-container{
+  height: 19rem;
+  border: 1px solid orange;
+  padding: 10px;
+}
+
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden{
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+} */

@@ -28,7 +28,7 @@ import World2Svg from './icons/World2Svg';
 // const drawerWidth = 240;
 const drawerWidth = "100vw";
 const navItems = [
-    'NFT',
+    'nft',
     'Prices',
     'Products',
     'Company',
@@ -43,7 +43,7 @@ const mobileNavItems = [
     'Company',
     'Learn',
     'Prices',
-    'NFT',
+    'nft',
 ];
 
 function Navbar(props) {
@@ -119,7 +119,7 @@ function Navbar(props) {
                 <Box className="flex items-center">
                   <Box sx={{ display: { xs: 'none', lg: 'block' } }} className="mr-8">
                       {navItems.map((item) => (
-                        <Link key={item}  href={`#${item}`} className='no-underline'>
+                        <Link key={item}  href={`/${item}`} className='no-underline'>
                           <Button key={item} sx={{color:"#F4F4F4"}} className='text-lg capitalize opacity-50 hover:opacity-100'>
                               {item}
                           </Button>
@@ -169,7 +169,7 @@ function Navbar(props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" sx={{}}>
+      <Box component="main" sx={{width:"100%"}}>
         <Toolbar />
         {children}
         {/* <div className='py-2 w-full'>

@@ -105,7 +105,7 @@ const Footer = () => {
                             {
                                 item?.subListItems?.length>0 && item?.subListItems?.map((item,i)=> (
                                     <li key={i}>
-                                        <Link href="#" classNameName="no-underline">{item}</Link>
+                                        <Link href="#" className="no-underline">{item}</Link>
                                     </li>
                                 ))
                             }

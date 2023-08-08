@@ -1,16 +1,23 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import DoneIcon from '@mui/icons-material/Done';
 import QrSvg from './icons/QrSvg'
 
 const Header = () => {
+  const headerVideoRef = useRef(null)
+
+  useEffect(() => {
+      console.log('headerVideoRef ',headerVideoRef)
+  }, [])
+  
 
   return (
     <>
         <section className='w-full pb-[128px] bg-[#010118]'>
-          <div className='w-full min-h-screen relative '>
-            <video className="header_video" autoPlay loop playsInline>
+          <div className='w-full min-h-screen relative' ref={headerVideoRef}>
+            <video className="header_video" autoPlay muted loop playsInline>
               <source src="/assets/videos/header_bg_video.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos.
             </video>
             <div className='w-full h-full absolute top-0 overlay_bg'>
@@ -38,6 +45,8 @@ const Header = () => {
                     </div>
                     <p className='text-sm lg:text-base font-normal text-[#D1D0D1]'>The industry’s most comprehensive  <span className='text-[#1199fa]'>rinsurance coverage</span> and  <span className='text-[#1199fa]'>verified proof of reserves</span></p>
                   </div>
+                  {/* <button className='bg-[#1199fa] text-white py-3 px-4 rounded-lg' onClick={()=>{headerVideoRef.current.play()}}>play video</button>
+                  <button className='ml-5 bg-[#1199fa] text-white py-3 px-4 rounded-lg' onClick={()=>{headerVideoRef.current.play()}}>pause video</button> */}
                 </div>
 
                 <Link href="#" className='hidden md:inline-block mb-16 bg-transparent border-[1px] border-[#f4f4f4] text-base sm:text-lg text-white font-semibold capitalize  px-6 py-3 rounded-[40px]'>
